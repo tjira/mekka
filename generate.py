@@ -264,7 +264,7 @@ if __name__ == "__main__":
 
         writeToFile(os.path.join("server", "eula.txt"         ), f"eula=true"                )
         writeToFile(os.path.join("server", "server.properties"), "\n".join(SERVER_PROPERTIES))
-        writeToFile(os.path.join("server", "user_jvm_args.txt"), f"-Xmx4G nogui"             )
+        writeToFile(os.path.join("server", "user_jvm_args.txt"), f"-Xmx4G"                   )
 
         os.makedirs(os.path.join("server", "mods"), exist_ok=True)
 
