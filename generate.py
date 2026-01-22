@@ -258,14 +258,13 @@ if __name__ == "__main__":
     def mserver(directory):
         os.makedirs("server", exist_ok=True)
 
-        downloadFile(NEOFORGE_URL, os.path.join("server", "server.jar"))
+        downloadFile(NEOFORGE_URL, os.path.join("server", "neoforge.jar"))
 
-        writeToFile(os.path.join("server", "run.sh" ), f"java -jar server.jar")
-
-        os.chmod(os.path.join("server", "run.sh"), 0o755)
+        executeCommand(f"cd server && java -jar neoforge.jar --installServer")
 
         writeToFile(os.path.join("server", "eula.txt"         ), f"eula=true"                )
         writeToFile(os.path.join("server", "server.properties"), "\n".join(SERVER_PROPERTIES))
+        writeToFile(os.path.join("server", "user_jvm_args.txt"), f"-Xmx4G nogui"             )
 
         os.makedirs(os.path.join("server", "mods"), exist_ok=True)
 

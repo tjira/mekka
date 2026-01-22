@@ -1,5 +1,8 @@
 {
     "appeng.client.gui.implementations.CellWorkbenchScreen": {
         "ignore": true
+    },
+    "io.wispforest.accessories.client.gui.AccessoriesScreen": {
+        "ignore": true
     }
 }
