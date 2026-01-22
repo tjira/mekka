@@ -80,6 +80,7 @@ MOD_IDS_CLIENT = {
     "ImmediatelyFast" : "7TFPpGUU",
     "Continuity" : "eXGUs5sy",
     "Mouse Tweaks" : "9I21YYxf",
+    "Inventory Profiles Next" : "TkopiUdv",
 } | MOD_IDS
 
 RESOURCE_PACKS = {

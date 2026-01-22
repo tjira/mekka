@@ -1,0 +1,5 @@
+{
+    "appeng.client.gui.implementations.CellWorkbenchScreen": {
+        "ignore": true
+    }
+}
