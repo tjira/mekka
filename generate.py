@@ -81,6 +81,8 @@ MOD_IDS_CLIENT = {
     "Continuity" : "eXGUs5sy",
     "Mouse Tweaks" : "9I21YYxf",
     "Inventory Profiles Next" : "TkopiUdv",
+    "libIPN" : "teCQx11p",
+    "Kotlin for Forge" : "NrSebcsG",
 } | MOD_IDS
 
 RESOURCE_PACKS = {
