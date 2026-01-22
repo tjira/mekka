@@ -60,6 +60,11 @@ MOD_IDS = {
     "owo" : "NMCHU6DZ",
     "ChoiceTheorem's Overhauled Village" : "z24vsFwz",
     "Lithostitched" : "HsoCbRc0",
+    "Nature's Copmpass" : "AqEmYPpi",
+    "Explorer's Compass" : "EpWAw9bz",
+    "ME Requester" : "kkJqmO8M",
+    "Waystones" : "f4A1aY3t",
+    "Balm" : "Yoii3Xj6",
 }
 
 MOD_IDS_SERVER = {
@@ -74,6 +79,7 @@ MOD_IDS_CLIENT = {
     "BetterF3" : "maXNB1dn",
     "ImmediatelyFast" : "7TFPpGUU",
     "Continuity" : "eXGUs5sy",
+    "Mouse Tweaks" : "9I21YYxf",
 } | MOD_IDS
 
 RESOURCE_PACKS = {
